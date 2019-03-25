@@ -1,0 +1,367 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	background: url(wallpaper.jpg);
+}
+.fiend1
+{
+	position: absolute;
+	width: 500px;
+	left: 0px;
+	bottom: 120px;
+	transform: scaleX(-1)
+}
+.fiend2
+{
+	position: absolute;
+	width: 330px;
+	left: 260px;
+	bottom: 0
+}
+.fiend3
+{
+	position: absolute;
+	width: 320px;
+	left: 0;
+	bottom: 0;
+	transform: scaleX(-1)
+}
+.fiend4
+{
+	position: absolute;
+	width: 110px;
+	left: 150px;
+	bottom: 20px
+}
+.fiend5
+{
+	position: absolute;
+	width: 220px;
+	left: 100px;
+	bottom: 0
+}
+.fiend6
+{
+	position: absolute;
+	width: 190px;
+	left: 220px;
+	bottom: 0;
+	transform: scaleX(-1)
+}
+.fiend7
+{
+	position: absolute;
+	width: 250px;
+	left: 330px;
+	bottom: 0;
+	transform;	
+}
+.chaos12
+{
+	transition: 2s
+}
+
+a
+{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	font-size: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: skyblue;
+	border: 2px solid black;
+	padding: 20px;
+}
+
+.points1
+{
+	position: absolute;
+	text-align: center;
+	background-color: rgb(18,154,156);
+	border: none;
+	color: rgb(217,143,31);
+	margin-left: 90px;
+	margin-top: 15px;
+	font-size: 40px;
+}
+.points2
+{
+	position: absolute;
+	text-align: center;
+	background-color: rgb(18,154,156);
+	border: none;
+	color: rgb(217,143,31);
+	margin-left: 90px;
+	margin-top: 15px;
+	font-size: 40px;
+}
+
+
+
+.ground
+{
+	position: absolute;
+	width: 400px;
+	margin-top: 320px;
+	margin-left: 100px;
+}
+.sidebar1
+{
+	margin-top: 100px;
+	position: absolute;
+	height: 550px;
+	width: 100%;
+	background-color: rgb(217,143,31);
+}
+.board
+{
+	margin-left: 15px;
+	margin-top: 10px;
+	width: 95%;
+	height: 75px;
+	background-color: rgb(87,54,4);
+	position: absolute;
+	border: 5px solid rgb(34,19,15);
+}
+.btn1
+{
+	margin-left: 283px;
+	margin-top: 150px;
+	width: 90%;
+	height: 75px;
+	background-color: rgb(255,255,204);
+	position: absolute;
+	border-radius: 5px;
+	border: 5px solid rgb(34,19,15);
+}
+.btn1 .item
+{
+	top: 7px;
+	width: 70px;
+	height: 50px;
+	background-color: rgb(18,154,156);
+	position: absolute;
+	color: white;
+	border: 3px solid rgb(217,143,31);
+	text-align: center;
+}
+.btn2
+{
+	margin-left: 283px;
+	margin-top: 230px;
+	width: 90%;
+	height: 75px;
+	background-color: rgb(255,255,204);
+	position: absolute;
+	border-radius: 5px;
+	border: 5px solid rgb(34,19,15);
+}
+.btn2 .item
+{
+	top: 7px;
+	width: 70px;
+	height: 50px;
+	background-color: rgb(18,154,156);
+	position: absolute;
+	color: white;
+	border: 3px solid rgb(217,143,31);
+	text-align: center;
+}
+.btn3
+{
+	margin-left: 283px;
+	margin-top: 310px;
+	width: 90%;
+	height: 75px;
+	background-color: rgb(255,255,204);
+	position: absolute;
+	border-radius: 5px;
+	border: 5px solid rgb(34,19,15);
+}
+.btn3 .item
+{
+	top: 7px;
+	width: 70px;
+	height: 50px;
+	background-color: rgb(18,154,156);
+	position: absolute;
+	color: white;
+	border: 3px solid rgb(217,143,31);
+	text-align: center;
+}
+.btn4
+{
+	margin-left: 283px;
+	margin-top: 390px;
+	width: 90%;
+	height: 75px;
+	background-color: rgb(255,255,204);
+	position: absolute;
+	border-radius: 5px;
+	border: 5px solid rgb(34,19,15);
+}
+.btn4 .item
+{
+	top: 7px;
+	width: 70px;
+	height: 50px;
+	background-color: rgb(18,154,156);
+	position: absolute;
+	color: white;
+	border: 3px solid rgb(217,143,31);
+	text-align: center;
+}
+.btn5
+{
+	margin-left: 283px;
+	margin-top: 470px;
+	width: 90%;
+	height: 75px;
+	background-color: rgb(255,255,204);
+	position: absolute;
+	border-radius: 5px;
+	border: 5px solid rgb(34,19,15);
+}
+.btn5 .item
+{
+	top: 7px;
+	width: 70px;
+	height: 50px;
+	background-color: rgb(18,154,156);
+	position: absolute;
+	color: white;
+	border: 3px solid rgb(217,143,31);
+	text-align: center;
+}
+input
+{
+	font-family: impact
+}
+.des
+{
+	top: 12px;
+	position: absolute;
+	margin-left: 100px;
+	color: black;
+	font-weight: bold;
+}
+
+.monster
+{
+	width: 100%;
+	height: 450px;
+	position: absolute;
+	margin-top: 100px;
+}
+
+.place
+{
+	margin-top: 300px;
+	position: absolute;
+	background-color: none;
+}
+
+.header1
+{
+	width: 50px;
+	height: 25px;
+	background-color: rgb(18,154,156);
+	position: absolute;
+	transform: skewX(-40deg);
+	margin-left: 470px;
+}
+.header2
+{
+	width: 50px;
+	height: 25px;
+	background-color: rgb(18,154,156);
+	position: absolute;
+	transform: skewX(40deg);
+	margin-left: 470px;
+	margin-top: 25px;
+}
+.header3
+{
+	width: 25px;
+	height: 25px;
+	background-color: rgb(217,143,31);
+	position: absolute;
+	transform: skewX(-40deg);
+	margin-left: 440px;
+}
+.header4
+{
+	width: 25px;
+	height: 25px;
+	background-color: rgb(217,143,31);
+	position: absolute;
+	transform: skewX(40deg);
+	margin-left: 440px;
+	margin-top: 25px;
+}
+.header5
+{
+	width: 50px;
+	height: 25px;
+	background-color: rgb(18,154,156);
+	position: absolute;
+	transform: skewX(40deg);
+	margin-left: 820px;
+}
+.header6
+{
+	width: 50px;
+	height: 25px;
+	background-color: rgb(18,154,156);
+	position: absolute;
+	transform: skewX(-40deg);
+	margin-left: 820px;
+	margin-top: 25px;
+}
+.header7
+{
+	width: 25px;
+	height: 25px;
+	background-color: rgb(217,143,31);
+	position: absolute;
+	transform: skewX(40deg);
+	margin-left: 875px;
+}
+.header8
+{
+	width: 25px;
+	height: 25px;
+	background-color: rgb(217,143,31);
+	position: absolute;
+	transform: skewX(-40deg);
+	margin-left: 875px;
+	margin-top: 25px;
+}
+.swiper-container 
+    {
+      width: 40%;
+      padding-top: 5px;
+      padding-bottom:5px;
+    }
+    .swiper-slide 
+    {
+      width: 300px;
+      height: 280px; 
+    }
+
+
+
+.containerasd
+{
+	width: 100%;
+	height: 500px;
+	background-color: red;
+	position: absolute;
+	margin-top: 700px;
+}
